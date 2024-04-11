@@ -1,2 +1,25 @@
-Node.js is an open-source and cross-platform JavaScript runtime environment. It runs the V8 JavaScript engine, the core of Google Chrome, outside of the browser. This allows Node.js to be very performant.
+Node was created by Ryan Dahl. 
+- Node.js (Node) is an Open Source, cross-platform runtime environment for executing JavaScript code. 
+- Node is used extensively for server-side programming, making it possible for developers to use JavaScript for client-side and server-side code without needing to learn an additional language. 
+- Node is sometimes referred to as a programming language or software development framework, but neither is true; it is strictly a JavaScript runtime.
+
+- Node incorporates the V8 JavaScript engine, the same one used in Google Chrome and other browsers. 
+
+Node Applications:
+- A Node application runs in a single process.
+- A Node server can handle thousands of concurrent connections without having to contend with thread concurrency issues or the overhead multithreading brings.
+
+- Node.js is event-driven and runs asynchronously. 
+- Code written for the Node environment does not follow the traditional model of receive, process, send, wait and receive found in other systems. 
+Instead, Node implements an event loop that processes incoming requests as they stack up in the event queue
+
+Node is well suited to real-time applications such as chats, streaming services, internet of things (IoT) offerings or single-page applications.
+
+Node is not suited to every type of workload, however. 
+For example, because of its single-threaded nature, Node might not be able to effectively run a processor-intensive web application that requires heavy server-side computations. 
+The computational load could end up blocking incoming requests and degrading overall performance
+
+Both browser and Node.js use JavaScript as their programming language. 
+
+npm is the standard package manager for Node.js
 
